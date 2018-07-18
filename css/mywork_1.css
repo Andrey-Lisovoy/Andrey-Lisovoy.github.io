@@ -76,12 +76,12 @@ div, p, button {
 }
 
 .offer-page {
-	background: url(../img/header-bg.png) no-repeat center top / cover;
+	background: url(../img/mywork_1_header-bg.png) no-repeat center top / cover;
 	padding-top: 30px;
 }
 
 .offer {
-	background: url(../img/cloud.png) no-repeat center top;
+	background: url(../img/mywork_1_cloud.png) no-repeat center top;
 	text-align: center;
 	padding-bottom: 390px;
 }
@@ -115,7 +115,7 @@ p.around-Volga {
 }
 
 form {
-	background: url(../img/form-bg.png) no-repeat center top;
+	background: url(../img/mywork_1_form-bg.png) no-repeat center top;
 	text-align: center;
 	padding-top: 75px;
 	padding-bottom: 80px;
@@ -194,7 +194,7 @@ input {
 }
 
 .advangites__item {
-	background: url(../img/li-icon.png) no-repeat center top;
+	background: url(../img/mywork_1_li-icon.png) no-repeat center top;
 	text-align: center;
 	width: 160px;
 	height: 150px;
@@ -223,7 +223,7 @@ input {
 }
 
 .ready-house {
-	background: url(../img/to-pass-house-bg.png) repeat-x center top;
+	background: url(../img/mywork_1_to-pass-house-bg.png) repeat-x center top;
 }
 
 .time-to-pass {
@@ -294,7 +294,7 @@ input {
 }
 
 .infrastructure	{
-	background: url(../img/infrostructura-bg.png) no-repeat center top;
+	background: url(../img/mywork_1_infrostructura-bg.png) no-repeat center top;
 	padding-top: 35px;
 }
 
@@ -326,7 +326,7 @@ input {
 .title-objects:after {
 	content:'';
 	display: block;
-	background: url(../img/h-before.png) no-repeat ;
+	background: url(../img/mywork_1_h-before.png) no-repeat ;
 	width: 400px;
 	height: 35px;
 	margin-top: 10px;
@@ -346,7 +346,7 @@ input {
 }
 
 .green-infra {
-	background: url(../img/green-section-bg.png) repeat-x center top;
+	background: url(../img/mywork_1_green-section-bg.png) repeat-x center top;
 	margin-top: -10px;
 	padding-bottom: 35px;
 }
@@ -424,7 +424,7 @@ input {
 }
 
 .set {
-	background: url(../img/complact-bg.png) no-repeat center top;
+	background: url(../img/mywork_1_complact-bg.png) no-repeat center top;
 	text-align: center;
 	color: #fff;
 }
@@ -449,7 +449,7 @@ input {
 }
 
 .documents {
-	background: url(../img/sertivicate-bg.png) no-repeat center top / cover;
+	background: url(../img/mywork_1_sertivicate-bg.png) no-repeat center top / cover;
 	padding-top: 40px;
 }
 
