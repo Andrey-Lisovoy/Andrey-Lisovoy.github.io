@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Guba website</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/mywork_5.css">
+
+	<script>
+		function alls() {
+			var button1 = document.getElementById('work__button-1');
+			button1.classList.add("checked");
+			var button2 = document.getElementById('work__button-2');
+			button2.classList.remove("checked");
+			var button3 = document.getElementById('work__button-3');
+			button3.classList.remove("checked");
+			var button4 = document.getElementById('work__button-4');
+			button4.classList.remove("checked");
+			var element = document.getElementsByClassName('buttn');
+			element[0].style.display='block';
+			element[1].style.display='block';
+			element[2].style.display='block';
+			element[3].style.display='block';
+		}
+		function web() {
+			var button1 = document.getElementById('work__button-1');
+			button1.classList.remove("checked");
+			var button2 = document.getElementById('work__button-2');
+			button2.classList.add("checked");
+			var button3 = document.getElementById('work__button-3');
+			button3.classList.remove("checked");
+			var button4 = document.getElementById('work__button-4');
+			button4.classList.remove("checked");
+			var element = document.getElementsByClassName('buttn');
+			element[0].style.display='none';
+			element[1].style.display='none';
+			element[2].style.display='block';
+			element[3].style.display='block';
+		}
+		function apps() {
+			var button1 = document.getElementById('work__button-1');
+			button1.classList.remove("checked");
+			var button2 = document.getElementById('work__button-2');
+			button2.classList.remove("checked");
+			var button3 = document.getElementById('work__button-3');
+			button3.classList.add("checked");
+			var button4 = document.getElementById('work__button-4');
+			button4.classList.remove("checked");
+			var element = document.getElementsByClassName('buttn');
+			element[0].style.display='block';
+			element[1].style.display='none';
+			element[2].style.display='none';
+			element[3].style.display='none';
+		}
+		function icons() {
+			var button1 = document.getElementById('work__button-1');
+			button1.classList.remove("checked");
+			var button2 = document.getElementById('work__button-2');
+			button2.classList.remove("checked");
+			var button3 = document.getElementById('work__button-3');
+			button3.classList.remove("checked");
+			var button4 = document.getElementById('work__button-4');
+			button4.classList.add("checked");
+			var element = document.getElementsByClassName('buttn');
+			element[0].style.display='none';
+			element[1].style.display='block';
+			element[2].style.display='none';
+			element[3].style.display='none';
+		}
+		function adap() {
+			var menu = document.getElementsByClassName('adaptive-menu');
+			menu[0].classList.toggle('dn');
+		}
+	</script>
+</head>
+<body>
+	<section id="first">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<img src="img/mywork_5_logo.png" alt="Logotype" class="logo">
+				</div>
+				<div class="col-md-9">
+					<nav class="clearfix">
+						<ul class="main-menu d-none d-md-block">
+							<li>
+								<a href="#" class="main-menu__item">
+									Home
+								</a>
+								<a href="#" class="main-menu__item">		About
+								</a>
+								<a href="#" class="main-menu__item">
+									Work
+								</a>
+								<a href="#" class="main-menu__item">
+									Blog
+								</a>
+								<a href="#" class="main-menu__item">
+									Contact
+								</a>
+							</li>
+						</ul>
+						<div class="click__burger d-md-none" onclick="adap();">
+							<div class="main-menu__burger d-md-none">
+								
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+			<div class="adaptive-menu dn">
+				<ul>
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="#">About</a>
+					</li>
+					<li>
+						<a href="#">Work</a>
+					</li>
+					<li>
+						<a href="#">Blog</a>
+					</li>
+					<li>
+						<a href="#">Contact</a>
+					</li>
+				</ul>
+			</div>
+			<h1>
+				Hi there! We are the new kids on the block<br> 
+				and we build awesome websites and mobile apps.
+			</h1>
+			<a href="#" class="btn work-us">Work with us!</a>
+		</div>
+	</section>
+	<section id="services">
+		<div class="container">
+			<div class="title">
+				<h2>
+					Services we provide
+				</h2>
+				<p class="title__desc">
+					We are working with both individuals and businesses from all over the globe<br> 
+					to create awesome websites and applications.
+				</p>
+			</div>
+			<div class="services-list">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+						<div class="services-list__item">
+							<img src="img/mywork_5_icon-flag.png" alt="Flag" class="services-list__icon" height="130">
+							<h3>
+								Branding
+							</h3>
+							<p class="services-list__desc">
+								Lorem ipsum dolor sit amet, 
+								consectetuer adipiscing elit, sed diam nonummy nibh.
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+						<div class="services-list__item">
+							<img src="img/mywork_5_icon-pencil.png" alt="Pencil" class="services-list__icon" height="130">
+							<h3>
+								Design
+							</h3>
+							<p class="services-list__desc">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+						<div class="services-list__item">
+							<img src="img/mywork_5_icon-gears.png" alt="Gears" class="services-list__icon" height="130">
+							<h3>
+								Development
+							</h3>
+							<p class="services-list__desc">
+								At vero eos et accusamus et iusto odio dignissimos qui blanditiis praesentium.
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+						<div class="services-list__item">
+							<img src="img/mywork_5_icon-racet.png" alt="Racet" class="services-list__icon" height="130">
+							<h3>
+								ROCKET SCIENCE
+							</h3>
+							<p class="services-list__desc">
+								Et harum quidem rerum est et expedita distinctio. Nam libero tempore.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>	
+	</section>
+	<section id="team">
+		<div class="container">
+			<div class="title">
+				<h2 class="dark-color">
+					Meet our beautiful team
+				</h2>
+				<p class="title__desc dark-color">
+					We are a small team of designers and developers, who help brands with big ideas
+				</p>
+			</div>
+			<div class="team-list">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+						<div class="team-list__item">
+							<div class="team-list__photo"></div>
+							<h3 class="dark-color name">
+								ANNE HATHAWAY
+							</h3>
+							<p class="position">
+								CEO / Marketing Guru
+							</p>
+							<p class="devis">
+								Lorem ipsum dolor sit amet, 
+								consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna.
+							</p>
+							<ul class="social clearfix">
+								<li><div class="icon"></div></li>
+								<li><div class="icon"></div></li>
+								<li><div class="icon"></div></li>
+								<li><div class="icon"></div></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+						<div class="team-list__item">
+							<div class="team-list__photo"></div>
+							<h3 class="dark-color name">
+								Kate Upton
+							</h3>
+							<p class="position">
+								Creative Director
+							</p>
+							<p class="devis">
+								Duis aute irure dolor in in voluptate velit esse cillum dolore fugiat nulla pariatur. Excepteur sint occaecat non diam proident.
+							</p>
+							<ul class="social">
+								<li><div class="icon"></div></li>
+								<li><div class="icon"></div></li>
+								<li><div class="icon"></div></li>
+								<li><div class="icon"></div></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+						<div class="team-list__item">
+							<div class="team-list__photo"></div>
+							<h3 class="dark-color name">
+								Olivia Wilde
+							</h3>
+							<p class="position">
+								Lead Designer
+							</p>
+							<p class="devis">
+								Nemo enim ipsam voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem nesciunt.
+							</p>
+							<ul class="social">
+								<li><div class="icon"></div></li>
+								<li><div class="icon"></div></li>
+								<li><div class="icon"></div></li>
+								<li><div class="icon"></div></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+						<div class="team-list__item">
+							<div class="team-list__photo"></div>
+							<h3 class="dark-color name">
+								Ashley Greene
+							</h3>
+							<p class="position">
+								SEO / Developer
+							</p>
+							<p class="devis">
+								Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+							</p>
+							<ul class="social">
+								<li><div class="icon"></div></li>
+								<li><div class="icon"></div></li>
+								<li><div class="icon"></div></li>
+								<li><div class="icon"></div></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</section>
+	<section id="skills">
+		<div class="container">
+			<div class="title">
+				<h2 class="dark-color">
+					WE GOT SKILLS!
+				</h2>
+				<p class="title__desc dark-color">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br> 
+					tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+			</div>
+			<div class="skills-list">
+				<div class="row">
+					<div class="col-lg-3 col-sm-6 col-xs-12">
+						<div class="skills-list__diagram webdisign">
+							90<span>%</span>
+						</div>
+						<h3 class="skills-list__title">
+							Web Design
+						</h3>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-xs-12">
+						<div class="skills-list__diagram html">
+							75<span>%</span>
+						</div>
+						<h3 class="skills-list__title">
+							HTML / CSS
+						</h3>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-xs-12">
+						<div class="skills-list__diagram graficdesign">
+							70<span>%</span>
+						</div>
+						<h3 class="skills-list__title">
+							GRAPHIC DESIGN
+						</h3>
+					</div>
+					<div class="col-lg-3 col-sm-6 col-xs-12">
+						<div class="skills-list__diagram ui">
+							85<span>%</span>
+						</div>
+						<h3 class="skills-list__title">
+							UI / UX
+						</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="portfolio">
+		<div class="container">
+			<div class="title">
+				<h2 class="dark-color">
+					OUR PORTFOLIO
+				</h2>
+				<p class="title__desc dark-color">
+					Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet<br>
+ 					consectetur, adipisci velit, sed quia non numquam
+				</p>
+			</div>
+			<div class="portfolio__container clearfix">
+				<div class="portfolio__button checked" id="work__button-1" 
+				onclick="alls();">
+					All
+				</div>
+				<div class="portfolio__button" id="work__button-2" 
+				onclick="web();">
+					Web
+				</div>
+
+				<div class="portfolio__button" id="work__button-3"
+				onclick="apps();">
+					Apps
+				</div>
+				<div class="portfolio__button" id="work__button-4"
+				onclick="icons();">
+					Icons
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 buttn" id="work1">
+					<div class="portfolio__item">
+						<img src="img/mywork_5_work1.png" alt="Work #1" class="portfolio__work img-fluid">
+						<div class="portfolio__title">
+							Isometric Perspective Mock-Up
+						</div>
+					</div>	
+				</div>
+				<div class="col-md-6 buttn" id="work2">
+					<div class="portfolio__item">
+						<img src="img/mywork_5_work2.png" alt="Work #2" class="portfolio__work img-fluid">
+						<div class="portfolio__title">
+							Time Zone App UI
+						</div>
+					</div>	
+				</div>
+				<div class="col-md-6 buttn" id="work3">
+					<div class="portfolio__item">
+						<img src="img/mywork_5_work3.png" alt="Work #3" class="portfolio__work img-fluid">
+						<div class="portfolio__title">
+							Viro Media Players UI
+						</div>
+					</div>	
+				</div>
+				<div class="col-md-6 buttn" id="work4">
+					<div class="portfolio__item">
+						<img src="img/mywork_5_work4.png" alt="Work #4" class="portfolio__work img-fluid">
+						<div class="portfolio__title">
+							Blog / Magazine Flat UI Kit
+						</div>
+					</div>	
+				</div>
+			</div>
+			<a href="#" class="btn more-project">Work with us!</a>
+		</div>
+	</section>
+	<section class="about-us">
+		<div class="container">
+			<div class="title">
+				<h2 class="">
+					WHAT PEOPLE SAY ABOUT US
+				</h2>
+				<p class="title__desc">
+					Our clients love us!
+				</p>
+			</div>
+			<div class="recommend">
+				<div class="row">
+					<div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
+						<div class="recommend__item clearfix">
+							<div class="recommend__photo"></div>
+							<div class="recommend__text">
+								<div class="recommend__recommend">
+									“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”
+								</div>
+								<div class="recommend__name">
+									Chanel Iman
+								</div>	
+								<div class="recommend__position">
+									CEO of Pinterest
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
+						<div class="recommend__item clearfix">
+							<div class="recommend__photo"></div>
+							<div class="recommend__text">
+								<div class="recommend__recommend">
+									“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”
+								</div>
+								<div class="recommend__name">
+									Chanel Iman
+								</div>	
+								<div class="recommend__position">
+									CEO of Pinterest
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
+						<div class="recommend__item clearfix">
+							<div class="recommend__photo"></div>
+							<div class="recommend__text">
+								<div class="recommend__recommend">
+									“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”
+								</div>
+								<div class="recommend__name">
+									Chanel Iman
+								</div>	
+								<div class="recommend__position">
+									CEO of Pinterest
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-6 col-lg-12 col-md-12 col-sm-12">
+						<div class="recommend__item clearfix">
+							<div class="recommend__photo"></div>
+							<div class="recommend__text">
+								<div class="recommend__recommend">
+									“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”
+								</div>
+								<div class="recommend__name">
+									Chanel Iman
+								</div>	
+								<div class="recommend__position">
+									CEO of Pinterest
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="contact">
+		<div class="container">
+			<div class="title">
+				<h2 class="">
+					GET IN TOUCH
+				</h2>
+				<p class="title__desc">
+					1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America. Tel: (202) 456-1111
+				</p>
+			</div>
+			<div class="form">
+				<form action="#" class="clearfix">
+					<input class="form__name" type="text" placeholder="Your Name">
+					<input class="form__email" type="email"  placeholder="Your Email">
+					<textarea name="" id="" cols="30" rows="10">Your Message</textarea>
+				</form>
+			</div>
+			<a href="#" class="btn send">SEND MESSAGE</a>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<ul class="our-social clearfix">
+				<li>
+					<a href="">
+						Facebook
+					</a>
+				</li>
+				<li>
+					<a href="">
+						Twitter
+					</a>
+				</li>
+				<li>
+					<a href="">
+						Google+
+					</a>
+				</li>
+				<li>
+					<a href="">
+						LinkedIn
+					</a>
+				</li>
+				<li>
+					<a href="">
+						Behance
+					</a>
+				</li>
+				<li>
+					<a href="">
+						Dribbble
+					</a>
+				</li>
+				<li>
+					<a href="">
+						GitHub
+					</a>
+				</li>
+			</ul>
+		</div>	
+	</footer>
+</body>
+</html>
