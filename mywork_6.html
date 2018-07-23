@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/mywork_6.css">
+	<script>
+		var buttons = document.getElementsByClassName('buttons__item');
+		var images = document.getElementsByTagName('img');
+		function showDesctop() {
+			buttons[0].classList.add('buttons__item-checked');
+			buttons[1].classList.remove('buttons__item-checked');
+			buttons[2].classList.remove('buttons__item-checked');
+			images[0].classList.remove('dn');
+			images[1].classList.add('dn');
+			images[2].classList.add('dn');
+		}
+		function showTablet() {
+			buttons[0].classList.remove('buttons__item-checked');
+			buttons[1].classList.add('buttons__item-checked');
+			buttons[2].classList.remove('buttons__item-checked');
+			images[0].classList.add('dn');
+			images[1].classList.remove('dn');
+			images[2].classList.add('dn');
+		}
+		function showPhone() {
+			buttons[0].classList.remove('buttons__item-checked');
+			buttons[1].classList.remove('buttons__item-checked');
+			buttons[2].classList.add('buttons__item-checked');
+			images[0].classList.add('dn');
+			images[1].classList.add('dn');
+			images[2].classList.remove('dn');
+		}
+	</script>
+</head>
+<body>
+	<div class="container">
+		<div class="buttons clearfix">
+			<div class="buttons__item buttons__item-checked" onclick="showDesctop();">
+				Desctop
+			</div>
+			<div class="buttons__item" onclick="showTablet();">
+				Tablet
+			</div>
+			<div class="buttons__item" onclick="showPhone();">
+				Phone
+			</div>
+		</div>
+		<div class="images">
+			<div class="images__desctop">
+				<img src="img/mywork_6_1170.jpg" alt="Desctop version" class="img-fluid">
+			</div>
+			<div class="images__desctop">
+				<img src="img/mywork_6_724.jpg" alt="Tablet version" class="img-fluid dn">
+			</div>
+			<div class="images__desctop">
+				<img src="img/mywork_6_480.jpg" alt="Phone version" class="img-fluid dn">
+			</div>
+		</div>
+	</div>
+</body>
+</html>
