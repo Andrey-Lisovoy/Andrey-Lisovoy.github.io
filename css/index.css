@@ -465,7 +465,7 @@ input[type=radio] {
     text-align: center;
     position: relative;
     padding-top: 1px;
-    /* padding-left: 21px; */
+    padding-left: 21px;
     cursor: pointer;
     -webkit-appearance: none;
 }
@@ -522,7 +522,7 @@ input[type=radio] {
     text-align: center;
     position: relative;
     padding-top: 1px;
-    /*padding-left: 15px;*/
+    padding-left: 12px;
     cursor: pointer;
     -webkit-appearance: none;
 }
@@ -579,7 +579,7 @@ input[type=radio] {
     text-align: center;
     position: relative;
     padding-top: 1px;
-    /*padding-left: 7px;*/
+    padding-left: 7px;
     cursor: pointer;
     -webkit-appearance: none;
 }
