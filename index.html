@@ -1,117 +1,111 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<title>Мое портфолио</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&amp;subset=cyrillic" rel="stylesheet">
-	<link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-	<h1 class="text-center">Мои работы</h1>
-	<div class="container">
-		<div class="works">
-			<div class="row">
-				<div class="col-lg-4 col-md-6 col-sm-6">
-					<div class="item">	
-						<div class="item_title text-center">
-							Верстка Landing Page
-						</div>
-						<div class="picture">
-							<img class="img-fluid" src="img/index__work-1.png">
-						</div>
-						<div class="desc">
-							<p class="text-center">
-								Неадаптивный сайт для строительной кoмпании.
-							</p>
-						</div>
-						<a href="mywork_1.html" class="text-center">Просмотреть работу</a>
-					</div>
-				</div>	
-				<div class="col-lg-4 col-md-6 col-sm-6">
-					<div class="item">
-						<div class="item_title text-center">
-							Верстка Landing Page
-						</div>
-						<div class="picture">
-							<img class="img-fluid" src="img/index__work-2.png">
-						</div>
-						<div class="desc">
-							<p class="text-center">
-								Адаптивный сайт для портфолио.
-							</p>
-						</div>
-						<a href="mywork_2.html" class="text-center">Просмотреть работу</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-6">
-					<div class="item">
-						<div class="item_title text-center">
-							Верстка Landing Page
-						</div>
-						<div class="picture">
-							<img class="img-fluid" src="img/index__work-3.png">
-						</div>
-						<div class="desc">
-							<p class="text-center">
-								Неадаптивный сайт для веб-студии.
-							</p>
-						</div>
-						<a href="mywork_3.html" class="text-center">Просмотреть работу</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-6">
-					<div class="item">
-						<div class="item_title text-center">
-							Верстка Landing Page
-						</div>
-						<div class="picture">
-							<img class="img-fluid" src="img/index__work-4.png">
-						</div>
-						<div class="desc">
-							<p class="text-center">
-								Неадаптивный сайт для веб-разработчика.
-							</p>
-						</div>
-						<a href="mywork_4.html" class="text-center">Просмотреть работу</a>
-					</div>
-				</div>	
-				<div class="col-lg-4 col-md-6 col-sm-6">
-					<div class="item">
-						<div class="item_title text-center">
-							Верстка Landing Page + JS
-						</div>
-						<div class="picture">
-							<img class="img-fluid" src="img/index__work-5.png">
-						</div>
-						<div class="desc">
-							<p class="text-center">
-								Адаптивный сайт для веб-студии.
-								Использован JavaScript
-							</p>
-						</div>
-						<a href="mywork_5.html" class="text-center">Просмотреть работу</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 col-sm-6">
-					<div class="item">
-						<div class="item_title text-center">
-							Прототип сайта
-						</div>
-						<div class="picture">
-							<img class="img-fluid" src="img/index__work-6.png">
-						</div>
-						<div class="desc">
-							<p class="text-center">
-								Адаптивный прототип интернет-магазина одежды
-							</p>
-						</div>
-						<a href="mywork_6.html" class="text-center">Просмотреть работу</a>
-					</div>
-				</div>	
-			</div>
-		</div>		
-	</div>
-</body>
+<html>
+  <head>
+    <title>Форма подписки</title>
+    <meta charset="utf-8">
+    <meta name="Author" content="eSputnik.com.ua">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="https://pics.esputnik.com/repository/home/21515/Form/style26.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <form method="post" action="publication" id="sub_form" name="sub_form" novalidate="novalidate">
+      <div class="form-panel">
+        <div class="social">
+          <div class="logo33 image1"><a href="https://md-fashion.ua?utm_source=newsletter_MD&utm_medium=Email&utm_campaign=NPS&utm_content=form"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAAAPCAYAAAAs2MfGAAAFoUlEQVRYhe2ZeWwVVRTGf69973UBRbFWbKlGY6xLrGg1uNWV4PKHKCpaASOIiopCMGrUaKohUUGNiXHXqG3APe4RJGi0iKkbGsWNmrpFFIrUUgrdzUm+CTc3M6/zumBi+JJJ2zt37pl7zne+c+40UVlZuRYYzXZsBuYBr5EdTgOeBPYAuoACYDVwHfA5kALuAG4G/o6x8hZgPfA98AHwGfAdsC3L99qJDEgCxcCuzhQjQx0wBXgnpvNOBp4Gyrzx3RR4QwIY4djoD6O1XiUwVXONUPcAr+8kwtAgR9nqYyTwHHBmDCvHArUhwTf06coEu/+LVOJLBflrYFPIM0cAzwNPAWP+O7f9f5DMsJNRCqxl37sRc44CXgJKB+GRDuBWYLFUIiCMlZLLgOulUi4uBlr1XJxyEmA8cAiQ54xZEvwOvOHNzRXhzgCeBX6LWDOldSfJn/XAh0CzM8fGjwf2lC9bNW4kPhVoBD5x5ptyTgR+UmL4MCWtAiYoTmbzrQhfHCDbdn+jM257K89EAEORNn+R6rCLccDLgwx+gD7vJ3rZhXLAo9qIi9nAShEnLmaKVBs9mx+FEMDK4mNAhQhzW4iNNHAF8CCwTmSep/c6x3G49UOXiyhrHAIcCjyuyyXAPsD9SkCfAGWKySnAH7I5C2gCpgOrPNU1ojyi9c8C2jRuMZ2TE8NxY+Tko52xCpWIfbNw/kCxQrZ6Qp6vitlPBDCF2QAcJOKWyqHVIfMOB45U4zkzouRYRk+Wc0uA/ZVZC7xs61VQrNx2OuOdCqBfJnucZ3w8DJwEXCKimM0TgEI14X5CdukyX9WItIHttjgEQIu+Ahwsg7Vy4o5CvfoEH/tp43HRp+COdK4RIX2QrXmNbE6XJM8OsdENtAAHikTF6mOWhcztkS3z31hgbwUwHUHuMExQ8BcqHsFzpmB3KSbHqawFsBLVDrwAzAdmuKW2vxLgYqxqmzG7fAcGH0nd5pDxUVnuYat6iyZnrEOZ/oP+DrJ/svofO4a+qgDXeOv9Jfk3KV8ipzYAtwPLvbntCnhYP9US8/0tAXfRu7Z791br6FyukrXV2Y8R71ogH3hI72hzE1HOM5n8GDjbGUuoJygK2dhK/T4x5kayRbFzhHSxJYvsQdlmjlnkHCO7tV93zvkK5ng1usUK3pXqC1y8LwLYdZ7qcZ1q/pvOvHwlT42UpUdr3yI1ioNmlYYiNanu3ktkY7325CIpJaiWQtWKBJ1RBNimuncncHU/L2abnCtZGi5URfQbTSGZkAkpKcm9Tob4KFF9tabudDm6W89VewQoVODt3le6Vun7yTEeAcz2n8DbjgK16kNZXsa33g7r5L9RbJbpuBysPUN7qo842hdKSadJhQ4D1kYRICmm3agHL42Yt0IyWaQ6ORyoUEedClm7IeJ7QRRSUpJ0BAHSInOBAtiocQvQVcDdOhYu1XiZGlRrEJ9QgKeKPO856+ZIQdPKUtdenu65yPXqeICAvA8o0M9IFWYpQebq6Ogi6dn41Lp/PVuYqX6m5Nz5WmSad98YeKFkKBnjg08UorrdQjl7gWqfjyX6Itibha0flaG+RAYwx++lbrrRGe/Qp/Fz1XEHBGiUD4wcFyhoZuMmJUeAbs3NV9kK0CIS+w2uHdW+iPj2UCcbN6hUpdUTzFFM/OxfpxLtEn6xGtdK+19Asxoj/6FxqieG3XUWn6K/l6veBY1ZqZqLSd46a3TubtCLLpLkuehRF/utSJerjKqQHIdhqerxrxH3B4NEP2SOup+jK4pcw4FAFbsHmoDJCGn1xzaJYQWS+uqQrjxMshIh8ubDAn6irv7wM3Cf5KstxvyBIM6n6zD0ZqlGQ4GwWp8VkiFdY8LpNl1sUC0uDHF+rxqaLocYBZK44CX7HPmL8/m2U3b+0RHnRdW9nf8EGioA/wLOY2GCA6+jVAAAAABJRU5ErkJggg=="></a></div>
+        </div>
+        <div class="logo"></div>
+        <div class="form-ttl">Оцiнiть нас!</div>
+        <div class="form-ttl1">Яка вірогідність того, що ви будете рекомендувати інтернет-магазин<br>MD Fashion рідним, друзям та знайомим?</div>
+        <div class="form-line line-1 check">
+          <label class="r-l other" style="padding-left: 7px">
+            <div class="form-ttl2">1</div>
+            <input class="sex switch-disable" type="radio" name="profileInputId_161409" value="1"><i></i><span></span>
+          </label>
+          <label class="r-l other" style="padding-left: 7px">
+            <div class="form-ttl2">2</div>
+            <input class="sex switch-disable" type="radio" name="profileInputId_161409" value="2"><i></i><span></span>
+          </label>
+          <label class="r-l other" style="padding-left: 7px">
+            <div class="form-ttl2">3</div>
+            <input class="sex switch-disable" type="radio" name="profileInputId_161409" value="3"><i></i><span></span>
+          </label>
+          <label class="r-l other" style="padding-left: 7px">
+            <div class="form-ttl2">4</div>
+            <input class="sex switch-disable" type="radio" name="profileInputId_161409" value="4"><i></i><span></span>
+          </label>
+          <label class="r-l other" style="padding-left: 7px">
+            <div class="form-ttl2">5</div>
+            <input class="sex switch-disable" type="radio" name="profileInputId_161409" value="5"><i></i><span></span>
+          </label>
+          <label class="r-l other" style="padding-left: 7px">
+            <div class="form-ttl2">6</div>
+            <input class="sex switch-disable" type="radio" name="profileInputId_161409" value="6"><i></i><span></span>
+          </label>
+          <label class="r-l other" style="padding-left: 7px">
+            <div class="form-ttl2">7</div>
+            <input class="sex switch-disable" type="radio" name="profileInputId_161409" value="7"><i></i><span></span>
+          </label>
+          <label class="r-l other" style="padding-left: 7px">
+            <div class="form-ttl2">8</div>
+            <input class="sex switch-disable" type="radio" name="profileInputId_161409" value="8"><i></i><span></span>
+          </label>
+          <label class="r-l other" style="padding-left: 7px">
+            <div class="form-ttl2">9</div>
+            <input class="sex switch-disable" type="radio" name="profileInputId_161409" value="9"><i></i><span></span>
+          </label>
+          <label class="r-l other" style="padding-left: 7px">
+            <div class="form-ttl3">10</div>
+            <input class="sex switch-disable" type="radio" name="profileInputId_161409" value="10"><i></i><span></span>
+          </label>
+          <label class="error" id="profileInputId_161409-error" for="profileInputId_161409"></label>
+        </div>
+        <div class="form-line line-1">
+          <div class="left">
+            <div class="form-ttl4">Ні в якому разі не<br> рекомендуватиму</div>
+          </div>
+          <div class="right">
+            <div class="form-ttl5">Обов'язково<br>рекомендуватиму</div>
+          </div>
+        </div>
+        <div class="form-ttl6 style=" style="margin-left: 15px;">Ваш відгук</div>
+        <div class="form-line line-2 line-text">
+          <textarea class="feedback" cols="45" name="profileInputId_161412" rows="4" style="width: 520; height: 120px;"></textarea>
+        </div>
+        <div class="form-line last-line">
+          <input type="submit" name="subscribe" value="Залишити відгук">
+        </div>
+        <div class="left-block">
+          <div class="picture"></div>
+          <div class="text">
+            Повернення та обмін товарів
+            
+          </div>
+        </div>
+        <div class="center-block">
+          <div class="picture1"></div>
+          <div class="text">Доставка по всій Україні</div>
+        </div>
+        <div class="right-block">
+          <div class="picture2"></div>
+          <div class="text1">Клубна програма</div>
+        </div>
+        <div class="line1"></div>
+        <div class="form-line line-2">
+          <div class="facebook"><a href="https://www.facebook.com/md.fashion.ukraine"><img src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAMAAACfBSJ0AAAAAXNSR0IB2cksfwAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAF1QTFRF/////v7+/Pr6+/j4y8jIjouLgn9/qKWlysfHWldXjImJi4iIend3n5yc3dra5uPjeHV1yMXF7uvrbmtrpqOj29jY09DQnpubr6ys5+TkqqenaWZmkY6OkI2N0s/P3XMc2QAAAIJJREFUeJzt1ksPgkAMBOAuK+goj10Blef//5ni3jGZBm6da/OlTU8j4jLPJnMijla/OOG3pY2iYt6bM2fuXHfJi+LKuxu23Hn3ULoSqOqGdwGIu8Nd94wt0MWedS+kvJXuw7phnIB5pO/U/sXc0W4JYdW4vzFnztwBTtt3tf1a2ee/XyMm+d7vzUoAAAAASUVORK5CYII="></a></div>
+          <div class="insta"><a href="https://www.instagram.com/md_fashion.com.ua/"><img src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA3CAMAAACfBSJ0AAAAAXNSR0IB2cksfwAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAEhQTFRF/////v7+/Pr6+/j41tPTl5SUgn9/sK2tWldXXltbfHl5Yl9fq6ioZGFht7S08O3tcm9vfXp64N3d6ufnoZ6eiYaGeHV1aWZmypRcJgAAALhJREFUeJzt1sEOgyAMBmCwoigCIqjv/6YDNxMOHtpm24k/0XD50gBtghCyA2o6KYQkqxIp6NWuioLFAJprrrlfuV4Nd1SPd6OuM2JdX6Fp1vqp4pNTH2Pyt8CsFdINBVnnwTu7LpMOBGe3mPYUN5vXB8G5eOb/GR3R+XRtMXmaM7Bfbgfzl3rs/XHP876/ssTeX90vJdh+qfuzBNuf3Hko8xeOdwJl/hBprrnmvuC4713u+5r5nn8B3zcrKhOIGVYAAAAASUVORK5CYII="></a></div>
+        </div>
+        <div class="form-ttl7">Зв'яжіться з нами за телефоном<span> 044 585 50 40</span> (з 09:00 до 21:00)</div>
+        <div class="form-ttl8">або за адресою <span>support@md-fashion.ua</span></div>
+        <div class="form-ttl9">З повагою, команда MD-Fashion</div>
+        <div class="form-ttl10">Powered by</div>
+        <div class="form-line line-2">
+          <div class="omni"><a href="https://theomnicore.com/?utm_source=newsletter_MD&utm_medium=Email&utm_campaign=NPS&utm_content=form"><img src=" data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAAUCAMAAABrsOlPAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAuIwAALiMBeKU/dgAAAW5QTFRF////aGhoTU1N9/f3ZmZmSkpK/v7+9vb2+vr6+/v79fX1/Pz88vLy/f397e3tU1NTMzMzgICAZWVlUFBQ8PDw8/PzVFRUWVlZTExMXl5e2dnZ5eXlk5OTp6enSEhINDQ0wMDAPj4+jY2NQEBAqampNTU1sbGxv7+/kZGR1dXVZGRkampqaWlpOTk5hYWFycnJlpaWPT093t7e2NjYra2tvLy8Pz8/mZmZ4eHh8fHxQUFBYmJidnZ2f39/h4eHREREfn5+gYGBdXV1S0tL+Pj46+vrNzc3oKCg+fn5srKy7u7uy8vLvb29jIyMPDw80dHRpaWlOjo6zs7Oubm5nZ2dioqK5OTkyMjIwsLCQkJCu7u7xcXFj4+Prq6ufX19Tk5O39/fg4ODVlZWeXl5RUVF6urqNjY2oaGhc3Nz3NzcrKyssLCwq6urOzs7lZWVmJiY3d3d1NTUzMzMzc3NnJycR0dHb29vT09PUVFRW1tbdY4EBgAAAdlJREFUeJzllddWwkAQhkfFgMHAigWNYgDFYEFENFYs2Av23hvYe397d9GdRA3HG49c+F9MdnYm8yWTnRMAVE5uHvy5LPlZgIKQBeb/k9WWvhSIfEO0MysUYvslfUnXVKJ+t+CwZi4tFvJsu5NQFWHEVVxCbWmZm2+UV7A6MpH5hkwqMbuK3VyOSE81UVyY6GVBn1/ifg3zCStcG6hT1aBSj1DSYAOpkehQ0mTLBK0MNauqGuZuS6BFDrsirR+uSqKy3Ka087DWIVN1AnR1N7MuuXt4y1y91THo6x/QoYNaXMoAjQ8NG9o3MjpG7XhZHKGstOZB6MTHwu+bZJcpMs2hiehMU2i2Q4fOzc4PCqbQBbJoYMI0Sdda6kbociLREFlBaEjTtBq6CEYczF8lXoTC2voGGKGwObplCo0q20ZoOyn5At2J7Wp7GNeW6bdQ6aK0f59a+4GFRyiU6RMUFgOHpu0tOjKcXEimjqm1HZwgFOA0tKRDeXvhTDlnBwlLmkLhgphCk5cx+uxe7l4FruWwZebGAIXa1C1Cg3dU9+mXZOd4Hx/nGzSXQeHBfGQe0lPAPcHz+Hlk2N7TMx/d95HB7F+T4BB/TvpHysYPzf0i/Zz023p1/j30DQytQQyTA30RAAAAAElFTkSuQmCC"></a></div>
+        </div>
+      </div>
+      <input type="hidden" name="groupId" value="170409156">
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js" type="text/javascript"></script>
+    <script>!function(e,i){document.addEventListener("DOMContentLoaded",function(){$("#sub_form").validate({focusInvalid:!1,focusCleanup:!0,rules:{firstname:{required:!0},profileInputId_161409:{required:!0},email:{required:!0,email:!0}},messages:{firstname:{required:"Нужно указать имя"},profileInputId_161409:{required:"Оцінка обов'язкова"},email:{required:"Нужно указать email",email:"Нужен корректный email"}}})}),i.true=e}({},function(){return this}());</script>
+  </body>
 </html>
