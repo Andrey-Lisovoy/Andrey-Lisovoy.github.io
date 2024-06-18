@@ -516,13 +516,13 @@ input[type=radio] {
     -webkit-appearance: none;
 }
 }
-@media (-webkit-transition) (max-width: 400px) {
+@media (-webkit-transition) and (max-width: 400px) {
 .r-l {
     display: inline-block;
     text-align: center;
     position: relative;
     padding-top: 1px;
-    padding-left: 12px;
+    padding-left: 15px;
     cursor: pointer;
     -webkit-appearance: none;
 }
