@@ -459,6 +459,17 @@ input[type=radio] {
   appearance:         none;
 }
 
+@media (-webkit-transition) {
+.r-l {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    padding-top: 1px;
+    /* padding-left: 21px; */
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+
 .r-l:first-of-type {
         margin-left: 0px;
         padding-left: 0px;
@@ -505,6 +516,16 @@ input[type=radio] {
     -webkit-appearance: none;
 }
 }
+@media (-webkit-transition) (max-width: 400px) {
+.r-l {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    padding-top: 1px;
+    /*padding-left: 15px;*/
+    cursor: pointer;
+    -webkit-appearance: none;
+}
 
 .r-l:first-of-type {
         margin-left: 0px;
@@ -551,6 +572,16 @@ input[type=radio] {
     z-index: 5;
     -webkit-appearance: none;
 }
+}
+@media (-webkit-transition) and  (max-width: 340px){
+.r-l {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    padding-top: 1px;
+    /*padding-left: 7px;*/
+    cursor: pointer;
+    -webkit-appearance: none;
 }
 
 .r-l:first-of-type {
