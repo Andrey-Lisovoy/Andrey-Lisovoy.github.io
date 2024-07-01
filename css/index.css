@@ -164,13 +164,12 @@ p {
     }
 }
 .form-ttl2 {
-    display: block;
+    display: flex;
+	justify-content: center;
+	align-items: center;
     font: 700 14px/18px Roboto, Helvetica, Arial, sans-serif;
     color: #fff;
-    text-align: left;
     position: relative;
-    padding-left: 4px;
-    padding-top: 10px;
     z-index: 5;
     -webkit-appearance: none;
 }
@@ -323,58 +322,31 @@ p {
     }
 }
 
-
 .r-l {
-    display: inline-block;
-    text-align: center;
+    display: flex;
+	justify-content: center;
+	width: 32px;
+	height: 32px;
     position: relative;
-    padding-top: 1px;
-    padding-left: 10px;
     cursor: pointer;
     -webkit-appearance: none;
 }
-@media screen and (max-width: 445px) {
-    .r-l {
-        padding-left: 12px;
-    }
-}
-@media screen and (max-width: 445px) {
-    .r-l {
-        padding-left: 9px;
-    }
-}
-@media screen and (max-width: 375px) {
-    .r-l {
-        padding-left: 5px;
-    }
-}
 @media screen and (max-width: 340px) {
     .r-l {
-        padding-left: 0;
+        width: 22px;
+		height: 26px;
     }
 }
-.r-l:first-of-type {
-    margin-right: 0;
-}
-@media screen and (max-width: 340px) {
-    .r-l:first-of-type {
-        margin-left: 12px;
-    }
-}
+
 .r-l .sex {
-    width: 18px;
-    height: 18px;
-    float: right;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-appearance: none;
+    display: none
 }
 .r-l .sex + i + span {
     color: #000;
-    padding-left: 3px;
-    text-align: center;
     font: 400 14px/10px Roboto, sans-serif;
-    position: relative;
+    position: absolute;
+	left: 0;
+	top: 0;
     z-index: 4;
     -webkit-appearance: none;
 }
@@ -385,9 +357,6 @@ p {
     background: #e5e5e5;
     content: "";
     position: absolute;
-    left: -7px;
-    bottom: 10px;
-    top: -22px;
     box-sizing: border-box;
     border-radius: 3px;
     z-index: 4;
@@ -401,9 +370,6 @@ p {
         background: #e5e5e5;
         content: "";
         position: absolute;
-        left: -2px;
-        bottom: 10px;
-        top: -20px;
         box-sizing: border-box;
         border-radius: 3px;
     }
@@ -418,12 +384,8 @@ p {
     position: absolute;
     width: 32px;
     height: 32px;
-    top: -23px;
-    left: -8px;
-    bottom: 1px;
     background: #333;
     border-radius: 3px;
-    border: 1px solid #333;
     z-index: 5;
     -webkit-appearance: none;
 }
@@ -431,12 +393,8 @@ p {
     .r-l .sex + i + span:after {
         width: 22px;
         height: 26px;
-        top: -20px;
-        left: -3px;
-        bottom: 1px;
         background: #333;
         border-radius: 3px;
-        border: 1px solid #333;
     }
 }
 .r-l .sex:checked + i + span:after {
@@ -637,8 +595,33 @@ input[type=radio] {
     padding-right: 0;
 }
 .form-line.line-1.check {
-    margin-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 7px;
+    margin-bottom: 24px;
 }
+@media screen and (max-width: 445px) {
+	.form-line.line-1.check {
+		gap: 5px;
+	}
+}
+@media screen and (max-width: 400px) {
+	.form-line.line-1.check {
+		gap: 3px;
+	}
+}
+@media screen and (max-width: 375px) {
+	.form-line.line-1.check {
+		gap: 1px;
+	}
+}
+@media screen and (max-width: 340px) {
+	.form-line.line-1.check {
+		gap: 7px;
+	}
+}
+
 @media screen and (max-width: 320px) {
     .form-line.line-2.line-text {
         width: 89%;
